@@ -20,9 +20,8 @@ Run:
 
 # Hardware: Build a PicoLED strip (_./hardware/_):
 
-Design for laser-cut box:
-* SVG: _./hardware/pico-strip-box-single.svg_
-* Original Corel Draw files: _./hardware/pico-strip-box-single.cdr_
+Raspberry Pi Pico or PicoW:
+* This setup has been tested with both boards. Other boards that can run circuitpython will probably work as well.
 
 LED Strips:
 * Use WS2812b led strips. The box design above is set up for 20 LEDs at 144 leds/meter, but any number of these leds and any density can be used.
@@ -31,3 +30,9 @@ LED Strips:
     * GPIO (default GP27) -> Data
     * 5V -> 5V
  
+ Design for laser-cut box (optional):
+* SVG: _./hardware/pico-strip-box-single.svg_
+* Original Corel Draw files: _./hardware/pico-strip-box-single.cdr_
+
+PCB (Optional):
+* We have a PCB design that facilitates mounting the Pico to the box and attaching the wires for the LED strip (_pico-LED-Touch-Analog-1x-v3.zip_).
