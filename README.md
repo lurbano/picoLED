@@ -35,4 +35,7 @@ LED Strips:
 * Original Corel Draw files: _./hardware/pico-strip-box-single.cdr_
 
 PCB (Optional):
-* We have a PCB design that facilitates mounting the Pico to the box and attaching the wires for the LED strip (_pico-LED-Touch-Analog-1x-v3.zip_).
+* This is a PCB design that facilitates mounting the Pico to the box and attaching the wires for the LED strip, but, it's not necessary.
+    * (_./hardware/pico-LED-Touch-Analog-1x-v3.zip_).
+* We use 2 mm diameter nylon bolts (8 mm long) and nuts to secure the Pico to the PCB, then solder the five marked contacts. 
+* A 3-pin terminal block (0.1 inch/0.245 mm spacing) can then be soldered to the marked pins to make it easier to attach and adjust the wires going to the led strip. 
